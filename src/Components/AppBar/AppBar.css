@@ -1,0 +1,58 @@
+#nav{
+  display: flex;
+  position: fixed;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  font-weight:500 ;
+}
+
+#Appbar {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  font-weight:500 ;
+  justify-content: space-around;
+  
+}
+.logo img{
+  /* background-color: red; */
+  width: 140px;
+  height: 70px;
+  margin: 20px;
+  padding: 10px;
+  /* position: absolute;
+  z-index: 999; */
+}
+.content-button {
+  /* background-color: yellow; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  column-gap: 30px;
+  margin: 20px;
+  padding: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.links {
+  display: flex;
+  column-gap: 5px;
+}
+a+.active{
+  color:coral
+}
+.companyname{
+  margin-top: 25px;
+}
+@media (max-width:620px) {
+  .companyname{
+    font-size: 0px;
+  }
+  .content-button{
+    
+  }
+}

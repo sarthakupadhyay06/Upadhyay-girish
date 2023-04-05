@@ -4,11 +4,8 @@ const Card = () => {
   return (
     <div className='container'>
         <div className="card">
-            <div className="face">
-                <div className="face2">
-                    
-                </div>
-            </div>
+            <div className="face"></div>
+            <div className="face2"></div>
         </div>
     </div>
   )

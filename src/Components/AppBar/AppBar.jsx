@@ -8,7 +8,7 @@ import "./AppBar.css";
 export default function AppBar() {
   const location = useLocation();
   
-  console.log(location.pathname == "/home");
+  console.log(location.pathname === "/home");
   return (
     <nav id="nav">
       <NavLink to="/home">
@@ -25,32 +25,31 @@ export default function AppBar() {
           </h2>
         </div>
         <div></div>
-        <div className="content-button">
-          <div className="home">
-            <NavLink to="/home">
-              <a className=''>Home</a>
+        <ul className="content-button">
+          <li className="home">
+            <NavLink to="/home">Home
             </NavLink>
-          </div>
-          <div className="service">
+          </li>
+          <li className="service">
             <NavLink to="/services">
-              <a>Service</a>
+              Service
             </NavLink>
-          </div>
-          <div className="team">
+          </li>
+          <li className="team">
             <NavLink to="/team">
-              <a>Team</a>
+              Team
             </NavLink>
-          </div>
-          <div className="about-us">
+          </li>
+          <li className="about-us">
             <NavLink to="/about">
-              <a>About Us</a>
+              About Us
             </NavLink>
-          </div>
-          <div className="contact-Us ">
+          </li>
+          <li className="contact-Us ">
             <NavLink to="/contact">
-              <a>Contact Us</a>
+              Contact Us
             </NavLink>
-          </div>
+          </li>
           <div className="links">
             <a href="#">
               <FiFacebook />
@@ -62,7 +61,7 @@ export default function AppBar() {
               <FaLinkedin />
             </a>
           </div>
-        </div>
+        </ul>
       </div>
     </nav>
   );

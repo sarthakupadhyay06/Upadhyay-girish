@@ -13,7 +13,6 @@ export default function Services() {
 <div className="gradient">
   <video src={background} autoPlay loop muted />
   <span className="tagline">
-    fdsjfhsdijfwhfiguifgafihgyguhsuasasudggddgaa
   </span>
 </div>
       </div>

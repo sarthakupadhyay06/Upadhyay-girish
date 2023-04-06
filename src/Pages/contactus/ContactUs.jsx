@@ -66,17 +66,13 @@ export default function ContactUs() {
              <div className="opendays">
              <RxClock size={50}></RxClock>
                <h3>
-                Address
+               Open Days & Times
                </h3>
+               
                <div className='info-span'>
                <p>
-               C-44/207 Street No. 11,  
-               </p>
-               <p>
-               Bhajanpura New Delhi,
-               </p>
-               <p>
-               110053, India
+               Monday - Saturday <br />
+               10:00AM - 06:00PM
                </p>
                </div>
              </div>

@@ -16,6 +16,7 @@
  .info-span{
     display: flex;
     flex-direction: column;
+    margin-top: 5px;
 }
 .row{
     display: flex;
@@ -28,26 +29,27 @@
     
 }
 .address{
-    background-color: rgb(226, 225, 235);
+    background-color:#fafbff;
+    
 }
 .contactno{
-    
-    background-color: rgb(226, 225, 235);
+    font-size:15px;
+    background-color: #fafbff;
     padding-left: 20px;
     padding-top:10px ;
     padding-bottom: 10px;
 
 }
 .emailinfo{
-   
-    background-color: rgb(226, 225, 235);
+    font-size:15px;
+    background-color: #fafbff;
     padding-left: 20px;
     padding-top:10px ;
     padding-bottom: 10px;
 }
 .opendays{
-  
-    background-color: rgb(226, 225, 235);
+    font-size:15px;
+    background: #fafbff;
     padding-left: 20px;
     padding-top:10px ;
     padding-bottom: 10px;

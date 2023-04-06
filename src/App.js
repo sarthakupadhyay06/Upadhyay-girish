@@ -6,12 +6,14 @@ import ContactUs from "./Pages/contactus/ContactUs";
 import Services from "./Pages/Services/Services";
 import Home from "./Pages/Home/Home";
 import Team from "./Pages/Team/Team";
+import ScrollToTop from "./ScrollToTop";
 
 
 const App = () => {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <Header />
         <div className="maincontent"></div>
         <Routes>

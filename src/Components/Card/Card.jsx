@@ -1,20 +1,18 @@
 import React from 'react'
 import { MdMiscellaneousServices } from 'react-icons/md'
+import './Card.css'
 
-const Card = ({tag,color}) => {
+const Card = ({tag,src,info}) => {
   return (
     <div className='container'>
-        <div className='container'>
-    <div className="card">
-      <div className="icon">
-        <MdMiscellaneousServices />
+      <div class="card">
+        <div class="tag">{tag}</div>
+        <div class="pic">
+          <img src={src} alt="Tax" />
+        </div>
+        <div class="info">{info}
+        </div>
       </div>
-      <div className="tag" style={{color:{color}}}>{tag}</div>
-      <div className="button">Read More ... 
-      </div>
-    </div>
-</div>
-
     </div>
   )
 }

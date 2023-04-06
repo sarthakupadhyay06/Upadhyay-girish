@@ -25,9 +25,10 @@ export default function AppBar() {
           </h2>
         </div>
         <div></div>
-        <ul className="content-button">
-          <li className="home">
-            <NavLink to="/home">Home
+        <div className="content-button">
+          <div className="home">
+            <NavLink to="/home">
+              <a className=''>Home</a>
             </NavLink>
           </li>
           <li className="service">
@@ -47,7 +48,7 @@ export default function AppBar() {
           </li>
           <li className="contact-Us ">
             <NavLink to="/contact">
-              Contact Us
+              <a>Contact Us</a>
             </NavLink>
           </li>
           <div className="links">

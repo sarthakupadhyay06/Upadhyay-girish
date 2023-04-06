@@ -1,36 +1,99 @@
 import React from 'react'
-
+import { MdLocationOn } from "react-icons/md";
+import { MdCall } from "react-icons/md";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { RxClock } from "react-icons/rx";
+import "./ContactUs.css";
 export default function ContactUs() {
   return (
-    <div>
-          <div className="about-us-heading">
-            <div className="stick">
+    <div className='contactusmain'>
+        <h1 className='head'>Contact Us</h1>
+        <div className="row">
+          <div className="contact-info">
+             <div className="address">
+                 {/* <GoLocation></GoLocation> */}
+                <MdLocationOn size={50}></MdLocationOn>
+               <h3>
+                Address
+               </h3>
+               <div className='info-span'>
+               <p>
+               C-44/207 Street No. 11,  
+               </p>
+               <p>
+               Bhajanpura New Delhi,
+               </p>
+               <p>
+               110053, India
+               </p>
+               </div>
+               
+             </div>
+             <div className="contactno">
+             <MdCall size={50}></MdCall>
+               <h3>
+                Address
+               </h3>
+               <div className='info-span'>
+               <p>
+               C-44/207 Street No. 11,  
+               </p>
+               <p>
+               Bhajanpura New Delhi,
+               </p>
+               <p>
+               110053, India
+               </p>
+               </div>
+             </div>
+             <div className="emailinfo">
+             <MdOutlineMailOutline size={50}></MdOutlineMailOutline>
+               <h3>
+                Address
+               </h3>
+               <div className='info-span'>
+               <p>
+               C-44/207 Street No. 11,  
+               </p>
+               <p>
+               Bhajanpura New Delhi,
+               </p>
+               <p>
+               110053, India
+               </p>
+               </div>
+             </div>
+             <div className="opendays">
+             <RxClock size={50}></RxClock>
+               <h3>
+                Address
+               </h3>
+               <div className='info-span'>
+               <p>
+               C-44/207 Street No. 11,  
+               </p>
+               <p>
+               Bhajanpura New Delhi,
+               </p>
+               <p>
+               110053, India
+               </p>
+               </div>
+             </div>
+          </div>
+          <div className="contact-detail">
+            <div className="name">
+             <input type="text" placeholder='Your Name' />
+             <input type="text"  placeholder='Your Phone Number'/>
+
             </div>
-            <div className="elementary-about">
-            CONTACT US
-            </div>
-            </div>
-            <div className="container">
-                <div className="about-firm-heading">
-                      Send Us A Message
-                </div>
-            </div>
-            <div className="container">
-                <br />
-            <p>
-              <strong>Head Office:</strong> C-44/207 Street No. 11, Bhajanpura New Delhi, 110053, India 
-            </p>
-            <p>
-              <strong>Tel:</strong> +91-9958073472, +91-7503422525, +91-7011719573
-            </p>
-            <p>
-              <strong>Email:</strong>  &nbsp;cagirishupadhyay@gmail.com, cachetanupadhyay@gmail.com, csbhawna.gaur@gmail.com
-            </p>
-            <p>
-              <strong>Branches:</strong> Delhi
-            </p>
-            </div>
-            
+            <input type="email" name="" id="" placeholder='Your Email'/>
+            <input type="text" placeholder='Subject' />
+            <textarea name="" id="" cols="30" rows="10" placeholder='message'></textarea>
+            <button className='butto'>Send Message</button>
+          </div>
+          </div>  
+
     </div>
   )
 }

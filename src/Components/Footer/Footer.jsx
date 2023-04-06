@@ -39,7 +39,7 @@ const Footer = () => {
           </aside>
         </div>
         <div className="footer-widget-wrapper">
-          <aside className="contact-info">
+          <aside className="footer-contact-info">
             <h4 className='heading-horizontal-divider p-5'>CONTACT INFO</h4>
             <p>
               <strong>Head Office:</strong><br /> C-44/207 Street No. 11, Bhajanpura New Delhi, 110053, India 

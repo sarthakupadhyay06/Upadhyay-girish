@@ -25,8 +25,8 @@ export default function AppBar() {
           </h2>
         </div>
         <div></div>
-        <div className="content-button">
-          <div className="home">
+        <ul className="content-button">
+          <li className="home">
             <NavLink to="/home">
               <a className=''>Home</a>
             </NavLink>

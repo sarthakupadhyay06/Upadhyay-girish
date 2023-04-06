@@ -29,6 +29,7 @@ export default function AppBar() {
           <div className="home">
             <NavLink to="/home">
               <a className=''>Home</a>
+              
             </NavLink>
           </div>
           <div className="service">
@@ -48,7 +49,7 @@ export default function AppBar() {
           </div>
           <div className="contact-Us ">
             <NavLink to="/contact">
-              <a>Contact Us</a>
+              <a href="#contact">Contact Us</a>
             </NavLink>
           </div>
           <div className="links">

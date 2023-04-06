@@ -1,5 +1,5 @@
 import "./Team.css";
-export default function Services() {
+export default function Team() {
 return (
   <>
     <div className="team">

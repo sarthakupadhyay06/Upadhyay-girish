@@ -1,6 +1,9 @@
 import background from '../../Asset/background.mp4'
+import Services from '../Services/Services';
+import Team from '../Team/Team';
+
 import "./Home.css";
-export default function Services() {
+export default function Home() {
     return (
       // <div className="about-us-heading">
       //   {/* <div className="stick"></div>
@@ -13,6 +16,8 @@ export default function Services() {
 <div className="gradient">
   <video src={background} autoPlay loop muted />
   <span className="tagline">
+    <Services />
+    <Team />
   </span>
 </div>
       </div>

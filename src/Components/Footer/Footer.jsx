@@ -24,10 +24,10 @@ const Footer = () => {
                 <a href="/home">Home</a>
               </li>
               <li className='p-5 horizontal-divider'>
-                <a href="/team">Team</a>
+                <a href="/services">Services</a>
               </li>
               <li className='p-5 horizontal-divider'>
-                <a href="/services">Services</a>
+                <a href="/team">Team</a>
               </li>
               <li className='p-5 horizontal-divider'>
                 <a href="/about">About Us</a>
@@ -57,14 +57,14 @@ const Footer = () => {
         </div>
       </div>
         <div className="link-container center">
-          <a href="#">
-            <FiFacebook color="white"/>
+          <a href="#" className='facebook-icon'>
+            <FiFacebook color="#3b5998"/>
           </a>
           <a href="#">
-            <GrInstagram color="white"/>
+            <GrInstagram color="black"/>
           </a>
           <a href="#">
-            <FaLinkedin color="white"/>
+            <FaLinkedin color="#0072b1"/>
           </a>
         </div>
     <hr className='horizontal' />

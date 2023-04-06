@@ -16,7 +16,7 @@
     font-weight: 600;
 }
 
-.services-section img{
-    width: 500px;
-    height: 400px;
+.service-container{
+    display: flex;
+
 }

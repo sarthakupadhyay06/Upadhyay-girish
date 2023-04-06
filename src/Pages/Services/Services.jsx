@@ -28,7 +28,7 @@ export default function Services() {
         Conducting tax compliance review;`
   },{
     id: 1,
-    tag: "Tax",
+    tag: "Tax plan",
     src: taxplan,
     info: `Upadhyay Brother's provides domestic tax services to individuals, corporations, partnerships, trusts & estates, non-profit organizations.
 
@@ -78,9 +78,7 @@ export default function Services() {
       <div className="container service-container">
         {
           Services.map(service =>
-            <section className='services-section'>
             <Card tag={service.tag} src={service.src} info={service.info}/>
-          </section>
           )
         }
       </div>

@@ -47,3 +47,7 @@ p{
 a:hover{
   color:coral;
 }
+
+.active{
+  color: coral;
+}

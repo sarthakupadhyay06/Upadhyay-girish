@@ -1,17 +1,19 @@
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import { BrowserRouter as Router, Routes, Route, Link , useLocation} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import ContactUs from "./Pages/contactus/ContactUs";
 import Services from "./Pages/Services/Services";
 import Home from "./Pages/Home/Home";
 import Team from "./Pages/Team/Team";
+import ScrollToTop from "./ScrollToTop";
 
 
 const App = () => {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <Header />
         <div className="maincontent"></div>
         <Routes>

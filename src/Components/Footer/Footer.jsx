@@ -21,19 +21,19 @@ const Footer = () => {
             <h4 className='heading-horizontal-divider p-5'>RESOURCES</h4>
             <ul>
               <li className='p-5 horizontal-divider'>
-                <a href="#">Home</a>
+                <a href="/home">Home</a>
               </li>
               <li className='p-5 horizontal-divider'>
-                <a href="#">Team</a>
+                <a href="/team">Team</a>
               </li>
               <li className='p-5 horizontal-divider'>
-                <a href="#">Services</a>
+                <a href="/services">Services</a>
               </li>
               <li className='p-5 horizontal-divider'>
-                <a href="#">About Us</a>
+                <a href="/about">About Us</a>
               </li>
               <li className='p-5'>
-                <a href="#">Contact Us</a>
+                <a href="/contact">Contact Us</a>
               </li>
             </ul>
           </aside>

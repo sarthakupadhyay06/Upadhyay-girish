@@ -11,9 +11,20 @@ return (
           </div>
           <div className="team-content">
           Our team has a sound knowledge of related issues and thrives in ideating, providing, and implementing functional solutions.
+          </div>  
           </div>
-           
-          </div>
+
+    </div>
+    <div className="team-detail">
+      <div className="girish">
+
+      </div>
+      <div className="chetan">
+
+      </div>
+      <div className="bhawna">
+        
+      </div>
     </div>
   </>
 );

@@ -21,3 +21,10 @@
     grid-template-columns: 33.3% 33.3% 33.3%;
 
 }
+
+.services-background{
+    background-image: url(../../Asset/City_Landscape_Background.jpg);
+}
+.service-image-overlay{
+    background: rgba(255,255,255,0.5);
+}

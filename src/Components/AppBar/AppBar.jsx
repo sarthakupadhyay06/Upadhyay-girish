@@ -21,7 +21,7 @@ export default function AppBar() {
       <div id="Appbar">
       <div className="companyname">
           <h2>
-            Girish Upadhyay & Company
+            Upadhyay Girish & Company
           </h2>
         </div>
         <div></div>

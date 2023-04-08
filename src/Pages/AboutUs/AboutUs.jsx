@@ -5,14 +5,14 @@ export default function AboutUs() {
   return (
     <div>
         <div className="AboutUs">
-            <div className="about-us-heading">
-            <div className="stick">
-            </div>
+            <div className="about-us-heading"> 
             <div className="elementary-about">
             ABOUT US
             </div>
+            <div className="stick">
             </div>
-            <div className="container">
+            </div>
+            <div className="container about-container">
                 <div className="about-firm-heading">
                       About The Firm
                 </div>

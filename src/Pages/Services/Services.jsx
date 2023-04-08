@@ -41,7 +41,6 @@ export default function Services() {
   ]
   return (
     <div className="services-background">
-      <div className="service-image-overlay">
         <div className="service-heading-stick">
           <div className="service-elementary-about">
             OUR SERVICES
@@ -57,6 +56,5 @@ export default function Services() {
           }
         </div>
       </div>
-    </div>
   );
 }

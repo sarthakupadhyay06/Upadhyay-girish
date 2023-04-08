@@ -19,12 +19,11 @@
 .service-container{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 10px;
 
 }
 
 .services-background{
-    background-image: url(../../Asset/City_Landscape_Background.jpg);
-}
-.service-image-overlay{
-    background: rgba(255,255,255,0.5);
+    background: linear-gradient(rgba(255,0,0,0.5),rgba(0,0,0,0.5)), url(../../Asset/City_Landscape_Background.jpg) center/cover no-repeat fixed;
+    padding: 10px;
 }

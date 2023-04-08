@@ -15,6 +15,7 @@
   display: flex;
   font-weight:500 ;
   justify-content: space-between;
+  padding-right: 75px;
   
 }
 .logo img{

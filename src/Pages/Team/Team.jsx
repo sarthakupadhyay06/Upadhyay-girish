@@ -1,8 +1,11 @@
 import "./Team.css";
-import Aduit from '../../Asset/Audit.jpg'
+import Aduit from '../../Asset/Audit.jpg';
+// import team_image from "../../Asset/team-back.jpg";
 export default function Team() {
 return (
   <>
+
+    <div className="team-content">
     <div className="team">
           <div className="team-heading-stick">
             <div className="team-elementary-about">
@@ -41,8 +44,7 @@ return (
                <span className="space-email"> 
                cagupadhyay@gmail.com
               </span>
-           </div>
-          
+           </div> 
 
       </div>
       <div className="chetan">
@@ -88,8 +90,12 @@ return (
 
            </div>
           
+    </div>
       </div>
     </div>
+
+  
+
   </>
 );
 }

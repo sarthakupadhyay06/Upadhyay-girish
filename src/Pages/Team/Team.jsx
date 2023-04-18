@@ -13,7 +13,7 @@ return (
             </div>
           <div className="team-stick">
           </div>
-          <div className="team-content">
+          <div className="team-content-msg">
           Our team has a sound knowledge of related issues and thrives in ideating, providing, and implementing functional solutions.
           </div>  
           </div>

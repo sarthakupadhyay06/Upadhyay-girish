@@ -52,3 +52,33 @@ a:hover{
   color: coral;
 }
 
+@media screen and (max-width: 940px) {
+  .content-button{
+    display: none;
+  }    
+  .footer-container{
+    flex-direction: column;
+  }
+  .footer-widget-wrapper:nth-child(2){
+    display: none;
+  }
+  .footer-widget-wrapper{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+  }
+  .service-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .image-expertise img{
+    width: 100vw;
+  }
+  .companyname h2{
+    font-size: 17px;
+  }
+  .logo img{
+    width: 100px;
+    height: 65px;
+  }
+}

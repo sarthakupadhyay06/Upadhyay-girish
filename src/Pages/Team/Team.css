@@ -57,13 +57,7 @@
 }
 
 .team-content{
-    background: linear-gradient(rgb(250, 208, 193),rgba(255, 150, 112, 0.5)),url(../../Asset/team-back.jpg) center/cover no-repeat fixed;
-    /* background-image: url(../../Asset/background.jpg); */
-    /* background-repeat: no-repeat;
-    background-position: center;
-    /* height: 100vh; */
-    /* widthnpm : 100%; */
-    /* background-size: cover;*/
+    background: linear-gradient(rgba(209, 255, 251, 0.5),rgba(138, 224, 217, 0.5)),url(../../Asset/team-back.jpg) center/cover no-repeat fixed;
     margin-top: 10px;  
     
 }

@@ -85,7 +85,7 @@ export default function ContactUs() {
             </div>
             <input type="email" name="" id="" placeholder='Your Email'/>
             <input type="text" placeholder='Subject' />
-            <textarea name="" id="" cols="30" rows="10" placeholder='message'></textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
             <button className='butto'>Send Message</button>
           </div>
           </div>  

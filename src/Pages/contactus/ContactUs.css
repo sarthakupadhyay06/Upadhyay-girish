@@ -59,9 +59,8 @@
     flex-direction: column;
     gap: 10px;
     margin: 10px 0px 10px 0px;
-  
-
 }
+  
 .contact-detail input{
     padding:10px 0px 10px 10px;
     font-size: medium;
@@ -73,6 +72,8 @@
     
 }
 .contact-detail textarea{
+    resize: none;
+    font-size: medium;
     padding: 10px 0px 0px 10px;
 }
 .butto{

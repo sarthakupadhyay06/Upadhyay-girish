@@ -1,69 +1,85 @@
-import React from "react";
-import { FiFacebook } from "react-icons/fi";
-import { GrInstagram } from "react-icons/gr";
-import { FaLinkedin } from "react-icons/fa";
-import { NavLink , useLocation } from "react-router-dom";
-import ca from "../../Asset/CA.jpg";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./AppBar.css";
-export default function AppBar() {
-  const location = useLocation();
-  
-  console.log(location.pathname === "/home");
+
+function NavBar() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
   return (
-    <nav id="nav">
-      <NavLink to="/home">
-        <div className="logo">
-          <img src={ca} alt="" />
-         
-        </div>
-        
-    </NavLink>
-      <div id="Appbar">
-      <div className="companyname">
-          <h2>
-            Upadhyay Girish & Company
-          </h2>
-        </div>
-        <div></div>
-        <ul className="content-button">
-          <li className="home">
-            <NavLink to="/home">
-              Home
-            </NavLink>
-          </li>
-          <li className="service">
-            <NavLink to="/services">
-              Service
-            </NavLink>
-          </li>
-          <li className="team">
-            <NavLink to="/team">
-              Team
-            </NavLink>
-          </li>
-          <li className="about-us">
-            <NavLink to="/about">
-              About Us
-            </NavLink>
-          </li>
-          <li className="contact-Us ">
-            <NavLink to="/contact">
-              Contact Us
-            </NavLink>
-          </li>
-          <div className="links">
-            <a href="#">
-              <FiFacebook />
-            </a>
-            <a href="#">
-              <GrInstagram />
-            </a>
-            <a href="#">
-              <FaLinkedin />
-            </a>
+    <>
+      <nav className="navbar">
+        <div className="nav-container">
+          <NavLink exact to="/" className="nav-logo">
+            CodeBucks
+            <i className="fas fa-code"></i>
+          </NavLink>
+
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/services"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Service
+              </NavLink>
+              </li>
+              <li className="nav-item">
+              <NavLink
+                exact
+                to="/team"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Team
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About
+              </NavLink>
+            </li>
+           
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact Us
+              </NavLink>
+            </li>
+          </ul>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
-        </ul>
-      </div>
-    </nav>
+        </div>
+      </nav>
+    </>
   );
 }
+
+export default NavBar;

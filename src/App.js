@@ -15,7 +15,6 @@ const App = () => {
       <Router>
       <ScrollToTop />
         <Header />
-        <div className="maincontent"></div>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/home" element={<Home />}></Route>
